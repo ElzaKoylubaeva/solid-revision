@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Shop {
 
-    private final Logger logger = new Logger();
+    private final Logger logger = new ConsoleLogger();
     private final Map<String, Integer> products = new HashMap<>(); // HashMap<> -> Map<>
 
     public Shop() {

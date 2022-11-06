@@ -1,8 +1,6 @@
 package ru.netology.koylubaevaem;
 
-public class Logger {
+public interface Logger {
 
-    public void log(String msg) {
-        System.out.println(msg);
-    }
+    void log(String msg);
 }

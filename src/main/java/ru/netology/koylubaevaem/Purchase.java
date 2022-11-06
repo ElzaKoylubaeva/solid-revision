@@ -9,7 +9,7 @@ public class Purchase {
     protected String title;
     protected int count;
     protected Purchase[] purchases = new Purchase[AVAILABLE_GOODS_COUNT];// "магическое" число вынесено в статическое финальное поле
-    private final Logger logger = new Logger();
+    private final Logger logger = new ConsoleLogger();
 
     public Purchase(String title, int count) {
         this.title = title;
