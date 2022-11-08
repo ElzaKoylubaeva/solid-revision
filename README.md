@@ -1,7 +1,6 @@
 ### Изменения согласно принципам SOLID, DRY, Magic numbers
 
-1. https://github.com/ElzaKoylubaeva/solid-revision/blob/main/src/main/java/ru/netology/koylubaevaem/Purchase.java#L11 -
-Правило Magic: не использовать числа напрямую в коде
+1. https://github.com/ElzaKoylubaeva/solid-revision/blob/main/src/main/java/ru/netology/koylubaevaem/Basket.java - Single Responsibility Principle, для разделения логики "одного товара" и "корзины".
 2. https://github.com/ElzaKoylubaeva/solid-revision/blob/main/src/main/java/ru/netology/koylubaevaem/Purchase.java#L34 -
 Single Responsibility Principle, касательно метода
 3. https://github.com/ElzaKoylubaeva/solid-revision/blob/main/src/main/java/ru/netology/koylubaevaem/Logger.java - Open
